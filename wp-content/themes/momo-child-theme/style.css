@@ -1,0 +1,21 @@
+/*Theme Name: MomoSapien
+Theme URL: http://wpamanuke.com/
+Description: Twenty Nineteen Child Theme
+Author: WPAmaNuke
+Author URL: http://wpamanuke.com/
+Template: twentynineteen
+Version: 1.0.0
+Text Domain: twentynineteen-child*/
+/*overwrite and include these in default child theme*/
+.site-branding {display:none!important;}
+.entry .entry-header {display:none!important;}
+.site-info {display:none;}
+.entry .entry-content, .entry .entry-summary {max-width:100%!important;margin:0px; padding:0px!important;}
+.entry .entry-content > *, .entry .entry-summary > *, .entry .entry-summary > .wp-block-group > .wp-block-group__inner-container > *, .entry .entry-content > .wp-block-group > .wp-block-group__inner-container > * {max-width:100%!important;}
+.entry .entry-content > *, .entry .entry-summary > *, .entry .entry-summary > .wp-block-group > .wp-block-group__inner-container > *, .entry .entry-content > .wp-block-group > .wp-block-group__inner-container > * {margin:0px!important;}
+.site-header {padding:30px!important;}
+h1:not(.site-title):before, h2:before {display:none;}
+.vc_col-has-fill>.vc_column-inner,.vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner,.vc_row-has-fill+.vc_row>.vc_column_container>.vc_column-inner,.vc_row-has-fill>.vc_column_container>.vc_column-inner {padding-top:0px!important;}
+.wpb_button,.wpb_content_element,ul.wpb_thumbnails-fluid>li {margin-bottom:0px!important;}
+h1,h2,h3,h4,h5,h6 {clear:unset!important;margin:0px!important;}
+
